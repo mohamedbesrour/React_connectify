@@ -9,3 +9,57 @@
     width: 100%;
     background-color: beige;
 }
+.mainContainer{
+    width: 100%;
+}
+
+.Accueil{
+width: 100%;
+height: 100vh;
+}
+
+.blocAcc1{
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+    opacity: 0.5;
+}
+.blocAcc1 h2{
+    margin-top: 500px;
+    color: #216249;
+    font-family: Gravitas One;
+    font-size: 124px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid black;
+}
+.blocAcc1 p{
+    margin-top: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: 1px solid black;
+}
+.blocAcc2{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    opacity: 0.5;
+}
+.blocAcc3{
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+    opacity: 0.5;
+}
+.blocAcc4{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    opacity: 0.5;
+}
