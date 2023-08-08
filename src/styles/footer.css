@@ -1,0 +1,18 @@
+.Footer{
+    height: 180px;
+    width: 100%;
+    background: #216249;    margin-left: auto;margin-right: auto;
+}
+.Footer > .elementFooter{
+    text-align: center;
+    padding-top: 70px;
+
+}
+.Footer > .elementFooter > p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

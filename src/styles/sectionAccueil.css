@@ -1,0 +1,97 @@
+*{
+  box-sizing: border-box;
+  border: none;
+  list-style: none;
+  /* text-decoration: none; */
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+/*
+.img2 {
+  width: 50%;
+   background: url(image\pexels-cottonbro-4842567.jpg); 
+}*/
+/*.Page12{
+  border: 3px solid red;
+}*/
+
+#titre2 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 54px;
+  top: 15vh;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  color: #f4f4f4;
+}
+
+.texte {
+margin-left: auto;margin-right: auto;
+  width: 90%;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 25px;/*écart entre les ligne*/
+  color: #f4f4f4;
+
+}
+/*section 1 Bienvenue en plusieurs langues*/
+.sectionBienvenue{
+  width: 100%;
+  height: 100vh;
+  background-color: #bbe06c;
+  opacity: 0.9;
+}
+.sectionBienvenue > .titreBienvenue{
+  width: 70%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: normal;
+  text-align: center;
+}
+.sectionBienvenue > .titreBienvenue > h2{
+  color: #216249;
+  font-family: Gravitas One;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  padding-top: 40vh;
+}
+/*
+
+  */
+.blocAcc{
+  width: 100%;
+  height: 100vh;
+  background-color: #20835D;
+  /* opacity: 0.5; */
+}
+
+.sectionNewsletter{
+  width: 100%;
+  height: 100vh;
+  padding: 20vh 5vh 20vh 5vh;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+
+}
+.contenuNewsletter{
+  width: 70%;
+  height: 450px;
+  
+  margin-right: auto; margin-left: auto;
+  opacity: 0.8; 
+  border-radius: 20px;
+  background-color: black;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}

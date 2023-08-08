@@ -1,0 +1,138 @@
+/* $teal:#00b4cf;
+$white:#ffffff; */
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Poppins:ital,wght@0,400;0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+  box-sizing:border-box;
+  margin:0;
+  padding: 0;
+}
+/**body {
+	background: linear-gradient(90deg, #BE8CEF 0%, rgba(61, 46, 232, 0.83) 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+  font-size:10px;
+	height: 100vh;
+	margin: -20px 0 50px;
+}*/
+.container {
+	background-color: #FFFFFF;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	max-width: 100%;
+	min-height: 480px;
+  min-width:370px;
+}
+
+/*bloc à gauche*/
+.left-container {
+  /* flex: 1; */
+  /* background-color:#00b4cf; */
+  background: url(../Image/actualite.jpg);
+  width: 50%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center ;
+  background-repeat: no-repeat;
+ }
+.left-container p {
+  font-size:0.9rem;
+}
+.left-inner-container {
+  height:50%;
+  width:80%;
+  text-align:center;
+  line-height:22px;
+}
+input:focus, textarea:focus{
+  outline:1px solid #00b4cf;
+}
+
+
+/* formulaire à droite  */
+h2 {display: flex;  justify-content: center;
+    font-family: 'Gravitas One', cursive;
+  font-size:40px;
+  font-weight: 400;
+  padding-top: 3rem;
+  margin-bottom:3rem;
+  line-height: 50px;
+  color: #DACA3B;
+}
+.form-container {
+  display:flex;
+}
+
+
+.right-container {
+  display:flex;
+  flex:1;
+  height:100vh;
+  background-color: #20835D;
+  justify-content:center;
+  align-items:center;
+}
+
+.formulContact {
+  width: 80%;
+  max-width: 450px;
+  background-color: #1D5A43;
+  height:auto;
+  text-align: center;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+input, textarea {
+	background-color: #eee;
+    border-radius: 8px;
+	padding: 12px 15px;
+	margin: 13px 0;
+	width: 100%;
+  font-size:1rem;
+}
+textarea {
+  text-align: left;
+  min-height: 100px;
+  max-width: 100%;
+  max-height: 200px;}
+
+button {
+	border-radius: 16px;
+	border: 2px solid black;
+	background-color: #DACA3B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 15px 45px;
+    margin-bottom: 20px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+  cursor:pointer;
+}
+button:hover { opacity:0.7; background-color: rgb(120, 6, 13);}
+@media only screen and (max-width: 600px) {
+  .left-container{
+    display: none;
+  }
+  .lg-view {
+    display:none;  
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .sm-view {
+    display:none;  
+  }
+}
+
+form p {
+  text-align:left;
+}
+
