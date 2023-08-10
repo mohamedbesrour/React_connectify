@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Poppins:ital,wght@0,400;0,500;1,500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="inscription.css" />
+  <title>formulaire de connexion</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="form-container">
+      <div class="left-container">
+<img src="imageInscription.jpg" alt="image radio">
+      </div> <!---->
+
+
+      <div class="right-container">
+        <h2 class="lg-view">Inscription</h2>
+            <h2 class="sm-view">Inscription</h2>
+        <div class="formulaire">
+
+          <form action="#">
+            <div class="blocElementX2">
+            <h4>Nom :</h4><h4>Prénom :</h4></div>
+            
+              <div class="blocElementX2">
+                <input class="inputSmall" type="text" placeholder="Entrez votre nom..." />
+                <input class="inputSmall" type="text" placeholder="Entrez votre prénom..." />
+              </div>
+
+            <h4>Email</h4>
+            <input type="email" placeholder="Entrer votre email..." />
+            <div class="blocGenreX2">
+              <label id="Genre" name="sexe">genre :</label>
+            
+
+            <input type="radio" name="sexe"class="rond" value="homme" id="homme"/>
+            <h4>Homme</h4>
+
+            <input type="radio"name="sexe" class="rond" value="femme" id="femme"/>
+            <h4>Femme</h4>
+            
+           </div>
+            <h4>Mot de passe :</h4>
+            
+            <input type="password" placeholder="Entrez votre mot de passe..." />
+            
+            <h4>Vérification du mot de passe</h4>
+            <input type="password" placeholder="Entrez votre mot de passe..." />
+
+            <button>S'inscrire</button>
+            
+          </form>
+        </div>
+<h5>Déja Inscrit ?<a href="">Connectez-vous</a></h5>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

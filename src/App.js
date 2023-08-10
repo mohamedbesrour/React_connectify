@@ -17,14 +17,16 @@ import Navbar from "./components/navbar/Navbar.js"
 function App() {
 return (
 <div className="App">
+<Navbar/>
 <Routes>
   <Route path="/" element={<Home />} />
   <Route path="/connexion"   element={<Connexion />} />
   <Route path="/inscription" element={<Inscription/>}/>
   <Route parth="/profil/:id" element={<Profile/>}  />
+
 </Routes>
 
-
+{/* <Connexion/> */}
 <Header/>
 <Main/>
 <Footer/>

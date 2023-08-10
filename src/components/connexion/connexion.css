@@ -1,0 +1,152 @@
+/* $teal:#00b4cf;
+$white:#ffffff; */
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Poppins:ital,wght@0,400;0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  box-sizing:border-box;
+  margin:0;
+  padding: 0;
+}
+*body {
+	background: linear-gradient(90deg, #BE8CEF 0%, rgba(61, 46, 232, 0.83) 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+  font-size:10px;
+	height: 100vh;
+	margin: -20px 0 50px;
+}
+.container {
+	background-color: #FFFFFF;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	max-width: 100%;
+	min-height: 480px;
+  min-width:370px;
+}
+
+/**/
+ img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+ }
+/**/.left-container {
+  display:flex;
+  flex:1;
+  height:100vh;
+  justify-content:center;
+  align-items:center;
+  color:#FFFFFF;
+}
+.left-container p {
+  font-size:0.9rem;
+}
+
+input:focus, textarea:focus{
+  outline:1px solid #00b4cf;
+}
+
+h2 {
+  padding-bottom: 20px;
+    font-family: 'Gravitas One', cursive;
+  font-size:44px;
+  font-weight: 400;
+  margin-bottom:1rem;
+  color: #DACA3B;
+}
+h4 {
+  margin-top: 20px;
+  text-align:left;
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+h5 {
+  margin-top: 30px;
+color: #FFF;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+h5 a{
+  /*text-decoration: none;Pour que le lien ne soit plus "souligné"...*/
+  margin-left: 8px;
+color: #FFF;
+}
+.form-container {
+  display:flex;
+}
+
+
+.right-container {
+  display:flex;
+  flex-direction: column;
+  flex:1;
+  height:100vh;
+  background-color: #20835D;
+  justify-content:center;
+  align-items:center;
+}
+
+.formulaire {
+  width:490px;  background-color: #1D5A43;
+  height:auto;
+  text-align: center;
+  border-radius: 8px;
+  padding: 40px;
+}
+
+input, textarea {
+	background-color: #eee;
+    border-radius: 8px;
+	padding: 12px 15px;
+	margin: 13px 0;
+	width: 100%;
+  font-size:1rem;
+}
+textarea {
+  text-align: left;
+  min-height: 100px;
+  max-width: 100%;
+  max-height: 200px;}
+
+button {
+	border-radius: 16px;
+	border: 2px solid black;
+	background-color: #DACA3B;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: 700;
+	padding: 15px 45px;
+  margin: 20px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+  cursor:pointer;
+}
+button:hover { opacity:0.7; background-color: rgb(178, 22, 128);}
+a:hover { opacity:0.7; background-color: red}
+@media only screen and (max-width: 600px) {
+  .left-container{
+    display: none;
+  }
+  .lg-view {
+    display:none;  
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .sm-view {
+    display:none;  
+  }
+}
