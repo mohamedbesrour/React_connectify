@@ -17,7 +17,7 @@ $white:#ffffff; */
 	font-family: 'Montserrat', sans-serif;
   font-size:10px;
 	height: 100vh;
-	margin: -20px 0 50px;
+	/* margin: -20px 0 50px;margin: 0;padding: 0; */
 }
 .container {
 	background-color: #FFFFFF;
@@ -27,6 +27,7 @@ $white:#ffffff; */
 	max-width: 100%;
 	min-height: 480px;
   min-width:370px;
+  z-index: -1; /* mettre le nav à l'arrière-plan */
 }
 
 /*BOX Gauche*/
@@ -81,10 +82,11 @@ line-height: normal;
 h5 a{
   /*text-decoration: none;Pour que le lien ne soit plus "souligné"...*/
   margin-left: 8px;
-color: #FFF;
+  color: #FFF;
 }
 .form-container {
-  display:flex;
+  display: flex;
+  margin: 0; padding: 0;
 }
 
 .right-container {

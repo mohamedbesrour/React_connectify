@@ -2,12 +2,11 @@ import React from "react";
 import "../../styles/header.css";
 import "../../styles/sectionAccueil.css";
 import "../../styles/sectionContact.css";
-import Text from "../text";
+import Text from "./text";
 
 
 export default function Page1() {
   return (
-    <main>
       <div className="Page12">
 {/* section Bienvenue */}
 <section>
@@ -142,7 +141,6 @@ IMAGE
   </div>
 </section>
       </div>
-    </main>
   );
 }
 // import video from "../Image/videoConnectify.mp4";

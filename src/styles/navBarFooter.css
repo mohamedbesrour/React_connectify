@@ -27,12 +27,14 @@
   display: none;
 }
 .nav > .nav-links {
-display: inline;
+/* display: inline; */
+display: flex;
+flex-direction: row;
 float: right;
 font-size: 18px;
 }
 .nav > .nav-links > a {
-  display: inline-block;
+  /* display: inline-block; */
   padding: 10px 20px 10px 10px;
   margin-top: 30px; 
   text-align: center;
@@ -71,9 +73,9 @@ font-size: 18px;
     height: 10px;
     border-top: 4.5px solid #eee;
   }
-  .nav > .nav-links {
+ .nav-links {
     position: absolute;
-    display: block;
+    
     width: 100%;
     background-color: #333;
     height: 0px;
@@ -83,7 +85,8 @@ font-size: 18px;
     left: 0px;
   }
   .nav > .nav-links > a {
-    display: block;
+    display: flex;
+    /* flex-direction: row; */
     width: 100%;
   }
   .nav > #nav-check:not(:checked) ~ .nav-links {

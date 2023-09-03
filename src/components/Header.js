@@ -39,14 +39,6 @@ export default function Header() {
           <h1>Connectify</h1>
         </div>
         
-        {/* <div className="blocAcc1">
-        <div>
-          <h2 className="bienvenue">Bienvenue</h2></div>
-          <p>"Harmonisez vos passions, partagez vos émotions avec Connectify !"</p>
-        </div>
-        <div className="blocAcc2"></div>
-        <div className="blocAcc3"></div>
-        <div className="blocAcc4"></div> */}
       </div>
     </header>
   );

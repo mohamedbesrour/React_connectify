@@ -1,0 +1,45 @@
+.galerie{
+    height: 500px;
+    width: 80%;
+    border: 2px solid green;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:25px;
+	text-align:center;
+}
+
+/* ------ photo ------ */
+#galerie_mini
+{
+	margin-right:auto;
+	margin-left:auto;
+	list-style-type:none;
+}
+#galerie_mini li
+{
+	float:left;
+}
+#galerie_mini li a img
+{
+	margin:2px 1px;
+	border:1px solid #9e6a02;
+}
+#photo
+{
+	clear:both;
+	margin:0 auto;
+	margin-top:50px;
+}
+#photo dt
+{
+	font:italic 50px Calibri;
+	color:#9e6a02;
+}
+#photo dd
+{
+	margin:0;
+}
+#photo img
+{
+	border:1px solid #9e6a02;
+}

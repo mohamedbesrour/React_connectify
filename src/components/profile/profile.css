@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+/* ------------- Bannière ------------- */
+.banner{
+    height: 300px;
+    width: 100%;
+    background: url(../../Image/Banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; /*au début*/
+    align-items: center; /*de haut en bas*/
+}
+.bannerProfile{
+    height: 250px;
+    width: 80%;
+    background-color: #BEBABA;
+    opacity: 70%;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px; */
+    display: flex;
+    justify-content: flex-start; /*au début*/
+    align-items: center; /*de haut en bas*/
+}
+.avatar{
+    height: 140px;
+    width: auto;
+    margin-left: 5%;
+}
+/* ------------- Post ------------ */
+.postProfile{
+    height: auto;
+    width: auto; 
+    border: 2px solid black;
+    background: #a29e9e;
+}
+.postElement1{
+    height: 30px;
+    width: 420px;
+    margin: 15px auto 15px auto;
+    border-radius: 7px;
+    border: #000;
+    box-shadow: 3px 2px 2px #000;
+    background-color: white;
+}
+.postElement2{
+    height: 200px;
+    width: 420px;
+    margin: 15px auto 15px auto;
+    border-radius: 7px;
+    border: #000;
+    box-shadow: 3px 2px 2px #000;
+    background-color: white;
+}
+/* ---- Video Profile en 16:9 ---- */
+.videoProfile{
+    height: auto;
+    width: auto;
+}
+/* ------------ Music ------------ */
+.musicProfile{
+    height: auto;
+    width: auto;
+}
+.musicElement{
+    height: 150px;
+    width: auto;
+    background-color: #20835D;
+    margin-bottom: 12px;
+}
+.musicImage{
+    float:left;
+    height: 150px;
+    width: 150px;
+}
+
+/* ------------- Tabs ------------- */
+h2 {
+    color: #000;
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+}
+.containerProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f69ec4;
+    min-height: 50vh; /*pour bloquer le footer en bas de page*/
+}
+.tab {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0px 2px;
+    background: #32557f;
+    display: inline-block;
+    color: #fff;
+    border-radius: 3px 3px 0px 0px;
+    box-shadow: 0 0.5rem 0.8rem #00000080;
+}
+.panels {
+    background: #fff;
+    box-shadow: 0 2rem 2rem #00000080;
+    min-height: 200px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 20px;
+}
+.panel {
+    display: none;
+    animation: fadein 0.8s;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.panel-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.radio {
+    display: none;
+}
+#one:checked~.panels #one-panel,
+#two:checked~.panels #two-panel,
+#three:checked~.panels #three-panel,
+#four:checked~.panels #four-panel,
+#five:checked~.panels #five-panel {
+    display: block;
+}
+#one:checked~.tabs #one-tab,
+#two:checked~.tabs #two-tab,
+#three:checked~.tabs #three-tab,
+#four:checked~.tabs #four-tab,
+#five:checked~.tabs #five-tab {
+    background: #fff;
+    color: #000;
+    border-top: 3px solid #32557f;
+}
