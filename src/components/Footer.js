@@ -1,8 +1,6 @@
 import React from 'react'
 import "../styles/footer.css";
 // npm install styled-components
-import styled from 'styled-components'
-
 
 export default function Footer() {
   return (

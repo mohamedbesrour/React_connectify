@@ -82,7 +82,7 @@ font-size: 18px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
     top: 70px;
-    left: 0px;
+    left: 10px;
   }
   .nav > .nav-links > a {
     display: flex;

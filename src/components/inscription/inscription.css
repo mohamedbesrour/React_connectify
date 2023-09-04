@@ -27,7 +27,6 @@ $white:#ffffff; */
 	max-width: 100%;
 	min-height: 480px;
   min-width:370px;
-  z-index: -1; /* mettre le nav à l'arrière-plan */
 }
 
 /*BOX Gauche*/
@@ -66,6 +65,15 @@ h4 {
   color: #FFF;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.no-account{
+  margin-top: 10px;
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -109,7 +117,11 @@ h5 a{
   border-radius: 8px;
   padding: 30px;
 }
-
+label{
+  color: white;
+  font-size: 1em;
+  font-weight: 500;
+}
 input {
 	background-color: #eee;
   border-radius: 8px;
@@ -132,8 +144,11 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-
-  border: 1px solid red;
+}
+.genre-utilisateur{
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
 }
 .inputSmall{
 width: 45%;
