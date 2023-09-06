@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { UserContext } from "../../Sources/context/userContext";
 import { signOut } from "firebase/auth";
-import { auth } from "../../firebase-config";
+import { auth } from "../../Sources/firebase-config";
 // import '../navbar'
 
 import "../../styles/header.css";

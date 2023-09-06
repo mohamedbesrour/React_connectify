@@ -8,7 +8,7 @@ import { useContext, useRef, useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { UserContext } from "../../Sources/context/userContext";
 
-import { auth } from "../../firebase-config";
+import { auth } from "../../Sources/firebase-config";
 import {
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,

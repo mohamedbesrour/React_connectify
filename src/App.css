@@ -51,16 +51,31 @@
   z-index: -1;
 }
 
-
 .content h1 {
-
-  margin-top: 30vh; 
+  margin-top: 30vh;
+  margin-bottom: 30vh;
   color: rgba(218, 202, 59, 0.73);
 text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 font-family: Chicle;
-font-size: 250px;
+font-size: 170px;
 font-style: normal;
-font-weight: 400;
+font-weight: 300;
 line-height: normal;
-  text-align: center;
+  text-align: 0px;
+    top: center;
+}
+
+@media screen and (max-width: 600px) {
+  .content h1 {
+    margin-top: 25vh; 
+    color: rgba(218, 202, 59, 0.73);
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Chicle;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+    text-align: 0px;
+      top: center;
+  }
 }

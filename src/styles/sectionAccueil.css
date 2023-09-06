@@ -65,6 +65,16 @@
   font-weight: 700;
   padding-top: 40vh;
 }
+@media screen and (max-width: 600px) {
+  .containerBienvenue > .titreBienvenue > h2 {
+    color: #216249;
+    font-family: Gravitas One;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 40vh;
+  }
+}
 /*
 
   */
